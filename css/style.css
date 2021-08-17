@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+background: #5cbaff;
+}
+header nav{
+width: 50%;
+margin: auto;
+}
+header nav ul{
+list-style: none;
+display: flex;
+justify-content: space-between;
+height: 70px;
+align-items: center;
+}
+header nav ul li{
+
+}
+header nav ul li img{
+}
+header nav ul li a{
+text-decoration: none;
+color: #fff;
+text-transform: capitalize;
+font-weight: 500;
+font-size: 18px;
+}
+.content{
+display: flex;
+min-height: 91vh;
+}
+.img{
+width: 100%;
+}
+.featured_img{
+width: 40%;
+background: #5cbaff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.featured_img img{
+width: 70% ;
+}
+.form{
+width: 60%;
+background: #0093ff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form h1{
+color: #fff;
+font-size: 30px;
+text-transform: capitalize;
+}
+.form p{
+margin: 10px 0;
+color: #fff;
+}
+.form h3{
+text-transform: capitalize;
+margin-bottom: 10px;
+margin-top: 30px;
+color: #fff;
+}
+.form form{
+
+}
+.form form input{
+width: 100%;
+background: transparent;
+border: none;
+border: 1px solid #fff;
+padding: 10px;
+margin-bottom: 10px;
+background: #fff;
+}
+.form form input[type="submit"]{
+ width: auto; 
+ text-transform: capitalize; 
+ font-weight: 500px; 
+ color: #0093ff;
+ font-size: 15px;
+ cursor: pointer;
+}
+.form ul{
+list-style: none;
+margin: 0%;
+padding-top:20px;
+display: flex;
+justify-content: space-between;
+}
+.form ul li{
+color: rgba(255, 255, 255, 0.884);
+font-size: 16px;
+font-weight: 600;
+}
+.form ul li a{
+color: #fff;
+text-decoration: none;
+margin-top: 20px;
+}
+.form_content{
+width: 50%;
+}
